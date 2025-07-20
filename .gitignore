@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs
+lib-cov
+
+# Coverage
+coverage
+*.lcov
+.nyc_output
+
+# Build output
+build/
+dist/
+out/
+*.tsbuildinfo
+
+# Dependency directories
+node_modules/
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+.parcel-cache/
+.npm/
+.eslintcache
+.stylelintcache
+.yarn-integrity
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Output of 'npm pack'
+*.tgz
+
+# REPL history
+.node_repl_history
+
+# Testing
+.vscode-test
+
+# Vite logs (if using Vite)
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+
+# Others
+web_modules/
